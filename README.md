@@ -1,7 +1,7 @@
 jira-cli-port
 =============
 
-FreeBSD [port][4] script for `jira-cli`.
+FreeBSD port script for `jira-cli`.
 
 You can find `jira-cli` [here][1]
 
