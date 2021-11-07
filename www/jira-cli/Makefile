@@ -15,6 +15,9 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		go:modules
 
 GO_MODULE=	github.com/ankitpokhrel/jira-cli
+GO_BUILDFLAGS=	-ldflags="-X github.com/ankitpokhrel/jira-cli/internal/version.Version=v${PORTVERSION} \
+		-X github.com/ankitpokhrel/jira-cli/internal/version.BuildDate=$$(date +'%Y-%m-%dT%H:%M:%S%Z') \
+		-X github.com/ankitpokhrel/jira-cli/internal/version.GitCommit= "
 GO_TARGET=	./cmd/jira
 
 post-install:
