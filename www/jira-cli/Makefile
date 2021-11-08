@@ -1,16 +1,13 @@
-# WIP Package, remove / replace all wip instances before submission
-
 PORTNAME=	jira-cli
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.1.1
-CATEGORIES=	wip www
+CATEGORIES=	www
 DIST_SUBDIR=	jira-cli
 
 MAINTAINER=	fox@FreeBSD.org
 COMMENT=	Feature-rich Interactive Jira Command Line
 
 LICENSE=	MIT
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USES=		go:modules
 

@@ -1,11 +1,9 @@
 jira-cli-port
 =============
 
-FreeBSD port script for `jira-cli`.
+FreeBSD [port][4] script for `jira-cli`.
 
 You can find `jira-cli` [here][1]
-
-NOTE: This port is not yet available in the FreeBSD Ports tree.
 
 Installation
 ------------
@@ -38,3 +36,5 @@ BSD 2-clause. See LICENSE.
 [1]: https://github.com/ankitpokhrel/jira-cli
 [2]: https://github.com/ankitpokhrel/jira-cli#installation
 [3]: https://github.com/ankitpokhrel
+[4]: http://freshports.org/www/jira-cli
+
