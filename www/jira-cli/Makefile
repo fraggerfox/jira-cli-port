@@ -1,11 +1,12 @@
 PORTNAME=	jira-cli
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.3.0
+DISTVERSION=	1.3.0
 CATEGORIES=	www
 DIST_SUBDIR=	jira-cli
 
 MAINTAINER=	fox@FreeBSD.org
 COMMENT=	Feature-rich Interactive Jira Command Line
+WWW=		https://github.com/ankitpokhrel/jira-cli
 
 LICENSE=	MIT
 
